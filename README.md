@@ -26,7 +26,7 @@ C:\Users\User>WifSolverCuda.exe -h
  ```   
 
 ## How to use it
-![Bitcoin private key recovery](https://user-images.githubusercontent.com/82582647/161723666-490cb467-f184-4bce-84ff-a29ec3d21fd3.jpg)</br>
+
 The Compressed WIF key must span K... or L... contain 52 characters.</br>
 The Uncompressed WIF key must span 5... contain 51 characters.</br>
 
