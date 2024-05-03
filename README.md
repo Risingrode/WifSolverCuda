@@ -1,5 +1,4 @@
 # WifSolverCuda v3.0
-![Recovers a broken private key that misses characters](https://user-images.githubusercontent.com/82582647/161723196-755b39a1-5fd4-4e9e-bbb6-10932be33244.jpg)</br>
 This is a modified version of WifSolverCuda v0.5.0 by [PawGo](https://github.com/PawelGorny) </br>
 This is a soft for recovering unknown (lost) characters in the middle and beginning of a (Wallet Import Format) private key. </br>
 If you have a lost WIF private key end (on the right), use soft [**Wif key Recovery**](https://github.com/phrutis/Wif-key-Recovery)
