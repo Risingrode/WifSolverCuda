@@ -15,7 +15,7 @@
 #include <stddef.h>
 #include <stdint.h>
 #include <string.h>
-
+#include <stdlib.h>
 #include "base58.h"
 
 bool (*b58_sha256_impl)(void*, const void*, size_t) = NULL;
@@ -50,7 +50,7 @@ bool b58enc(char* b58, size_t* b58sz, const void* data, size_t binsz)
 		++zcount;
 
 	size = (binsz - zcount) * 138 / 100 + 1;
-	uint8_t* buf;
+	int* buf;
 	buf = (int*)malloc(sizeof(uint8_t) * size);
 	memset(buf, 0, size);
 
